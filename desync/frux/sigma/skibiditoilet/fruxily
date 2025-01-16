@@ -1,5 +1,5 @@
 getgenv().Desync = false
-getgenv().KeyBind = Enum.KeyCode.Z
+getgenv().KeyBind = Enum.KeyCode.K
 
 local uis = game:service'UserInputService'
 
