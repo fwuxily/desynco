@@ -15,7 +15,7 @@ uis.InputBegan:Connect(
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "FruxWare";
                     Text = "ON";
-                    Icon = "rbxassetid://5747127696";
+                    Icon = "rbxassetid://9142678957";
                     Duration = 5;
                     })
                 elseif a.KeyCode == getgenv().KeyBind and getgenv().Desync == true then
@@ -23,7 +23,7 @@ uis.InputBegan:Connect(
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "FruxWare";
                     Text = "TURNED OFF";
-                    Icon = "rbxassetid://5747127696";
+                    Icon = "rbxassetid://9142678957";
                     Duration = 5;
                     })
             end
