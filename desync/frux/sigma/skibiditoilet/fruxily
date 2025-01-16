@@ -13,7 +13,7 @@ uis.InputBegan:Connect(
             if a.KeyCode == getgenv().KeyBind and getgenv().Desync == false then
                 getgenv().Desync = true
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "NIGGER FARZAD";
+                    Title = "FruxWare";
                     Text = "ON";
                     Icon = "rbxassetid://57254792";
                     Duration = 5;
@@ -21,7 +21,7 @@ uis.InputBegan:Connect(
                 elseif a.KeyCode == getgenv().KeyBind and getgenv().Desync == true then
                 getgenv().Desync = false
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "FruxWare ENABLED";
+                    Title = "FruxWare";
                     Text = "TURNED OFF";
                     Icon = "rbxassetid://57254792";
                     Duration = 5;
