@@ -22,7 +22,7 @@ uis.InputBegan:Connect(
                 getgenv().Desync = false
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "FruxWare";
-                    Text = "TURNED OFF";
+                    Text = "OFF";
                     Icon = "rbxassetid://9142678957";
                     Duration = 5;
                     })
